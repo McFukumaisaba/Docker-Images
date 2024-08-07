@@ -11,9 +11,9 @@ export INTERNAL_IP
 cd /home/container || exit 1
 
 # Print Java version
-printf "------------------------------"
+echo "------------------------------"
 java -version
-printf "------------------------------"
+echo "------------------------------"
 
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
 # variable format of "${VARIABLE}" before evaluating the string and automatically
